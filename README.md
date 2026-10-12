@@ -52,12 +52,6 @@ class EmbeddingNet(nn.Module):
 
 The original classification layer is replaced with a linear projection to the desired embedding dimension. L2 normalization constrains each output embedding to unit length.
 
-For two normalized embeddings \(z_i\) and \(z_j\), cosine similarity is:
-
-\[
-s(z_i,z_j)=z_i^\top z_j
-\]
-
 A higher similarity indicates greater similarity between the two face representations.
 
 ### 3. Triplet Dataset
