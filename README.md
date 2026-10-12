@@ -74,11 +74,6 @@ The `TripletDataset` class samples positive images from the anchor's identity an
 
 The network is trained using `torch.nn.TripletMarginLoss`.
 
-\[
-L(a,p,n)=
-\max\left(d(a,p)-d(a,n)+m,\ 0\right)
-\]
-
 Where:
 
 - \(a\): Anchor embedding.
